@@ -6,6 +6,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -25,7 +26,7 @@ nav a{
 
 
 #navTittle{
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 45px;
     font-weight: 700;
 
@@ -42,4 +43,16 @@ nav a{
     font-weight:700;
     padding: 15px 35px;
 
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+#pro-pic{
+    width: 500px;
+    
 }
