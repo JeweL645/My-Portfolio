@@ -1,58 +1,107 @@
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
-nav li{
-   
+
+nav li {
+
     list-style: none;
     margin-right: 50px;
-    
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #3E3C3D;
 }
 
 
-#navTittle{
+#navTittle {
     color: #181818;
     font-size: 45px;
     font-weight: 700;
 
 }
-.text-primary{
-    color:#8F22E7
+
+.text-primary {
+    color: #8F22E7
 }
-.btn-primary{
+
+.btn-primary {
     color: white;
     border: 0;
     border-radius: 5px;
-    background:#8F22E7;
-    font-size:20px;
-    font-weight:700;
+    background: #8F22E7;
+    font-size: 20px;
+    font-weight: 700;
     padding: 15px 35px;
 
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-#pro-pic{
+
+#pro-pic {
     width: 500px;
-    
+    margin-left: 200px;
+
+}
+
+.banner-greet {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-tittle {
+    margin-top: 3px;
+    font-size: 85px;
+    margin-bottom: 0;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.about {
+    padding: 131px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-tittle{
+    color: #3E3C3D;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    color:black;
+    text-align: center;
+    font-size: 18px;;
 }
