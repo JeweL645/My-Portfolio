@@ -114,6 +114,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -136,18 +140,26 @@ main {
     padding: 35px;
 
 }
-.skill{
-    padding: 10px;
+
+.skill {
+
+
+    padding: 30px;
     border-radius: 3px;
     background-color: #ffe1f0;
     margin: 2px;
-    
+
 
 }
-.skill-description{
+
+.skill-description {
     padding: 3px;
-    text-align:left;
+    text-align: left;
 }
-.whatIdo{
-    margin-top:
+
+.resume-column-tittle {
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
